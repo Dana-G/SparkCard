@@ -1,0 +1,29 @@
+
+
+
+    <div id="main">
+        <div id="book">
+            <% @last_five.each do |c| %>
+                <div class="flash_card">
+                     <h2 class="question"><%= c.question %></h2>
+                     <h2 class="answer"><%= c.answer %></h2>
+                    <button class="circle">show</button>
+                </div>
+
+             <% end %>
+             <div class='clearfloat'></div>
+         </div>
+
+
+        <div id="bottom">
+            <h1>SparkCards</h1>
+            <h2>Never forget anything again</h2>
+            <button>Create your own deck</button>
+        </div>
+
+    </div>
+
+
+
+
+
