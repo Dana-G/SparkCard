@@ -7,10 +7,10 @@ $(document).ready(function() {
     $('.circle').click(function() {
         $(this).siblings().toggle();
         if ($(this).siblings('.question').is(":hidden")) {
-            $('.circle').html("hide");
+            $(this).html("hide");
         }
         else {
-            $('.circle').html("show");
+            $(this).html("show");
         }
 
     });
